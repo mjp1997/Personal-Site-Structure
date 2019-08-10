@@ -1,4 +1,4 @@
-//Importing express
+//Importing express and other packages
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
