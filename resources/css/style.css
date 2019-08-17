@@ -1,0 +1,241 @@
+html{
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	background-color: #E1ECF9;
+	color:#236AB9;
+}
+li, ul{
+	list-style-type: none;
+}
+h1{
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+	font-size: 45px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+h3{
+    text-align: left;
+}
+.qualitiesFormat{
+	line-height: 1.55;
+	font-size: 25px;
+	padding-top: 50px;
+}
+.homeParaFormat{
+	width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.55;
+}
+.section{
+	border-top: 1px solid #236AB9;
+	margin-top: 10px;
+}
+.companyFormat{
+    font-size: 16px;
+    color: #85898c;
+	padding-left: 7px;
+	padding-top: 5px;
+    font-weight: lighter;
+}
+.dateFormat{
+	font-size: 16px;
+    color: #85898c;
+	padding-left: 7px;
+	font-weight: lighter;
+    text-align: left;
+}
+.paraFormat{
+	width: 50%;
+    /* margin: auto; */
+	text-align: center;
+	padding:20px;
+	line-height: 1.55;
+}
+.resumeDescript{
+	line-height: 1.55;
+	border-bottom: 1px solid rgb(141, 176, 218);
+	padding-bottom: 15px;
+}
+.resumeSkillsCategoryDescript{
+	line-height: 1.55;
+	padding-bottom: 15px;
+	/* width: 35%; */
+
+}
+.resumeCategoryDescript{
+	line-height: 1.55;
+	/* border-bottom: 1px solid rgb(141, 176, 218); */
+	padding-bottom: 15px;
+	/* white-space: none !important; */
+
+}
+#profileImage{
+	width: 300px;
+	height: 300px;
+	margin-top: 50px;
+	border-radius: 50%;
+}
+.employerLogo{
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%; */
+	padding-left: 10px;
+	padding-top: 20px;
+}
+.employerLogo:hover{
+	width: 50px;
+	color: #b1d1f1;
+    height: 50px;
+    /* border-radius: 50%; */
+	padding-left: 10px;
+	padding-top: 20px;
+}
+.buttonPosition{
+	display: inline-block;
+	width: 20%;
+}
+body{
+	margin: 0;
+}
+p{
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+.buttonContainer ul {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+	float:bottom;
+}
+.container{
+	padding-left: 20px;
+	text-align: center;
+}
+.categoryContainer{
+    padding-left: 15px;
+	padding-right: 35px;
+    width: 52%; 
+	/* display: inline-block; */
+	white-space:pre;	
+}
+.categorySkillsContainer{
+    padding-left: 15px;
+	padding-right: 35px;
+    width: 25%; 
+	/* display: inline-block; */
+	white-space:pre;	
+}
+.categoryDescriptContainer{
+	padding-right: 35px;
+    width: 35%;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    /* float: left; */
+    justify-content: left;
+	/* display: inline-block; */
+}
+.categoryLabelContainer{
+	/* width: 38%; */
+	display: inline-block;
+	/* padding-left: 35px; */
+	padding-right: 35px;
+	white-space:pre;
+}
+.relative{
+	position: relative;
+}
+.wrapperDiv{
+	 margin-left: auto; 
+	margin-right:auto;
+}
+.overallContainer{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.workListings{
+	width: 60%;
+}
+.button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #b1d1f1;
+}
+.button {
+	background-color: #236AB9;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 10px 10px 10px 10px;
+	border-radius:4px;
+}
+.buttonContainer{
+    position: fixed;
+    /* background: #091D34; */
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.buttonContainer a {
+	/* background-color: #236AB9;	 */
+	display: block;
+	/* color: white; */
+  	text-align: center;
+  	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+::-webkit-scrollbar {
+	width: 13px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #236AB9; 
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #b1d1f1; 
+  }
+.fa-github{
+	color: #236AB9;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.fa-github:hover{
+	color: #b1d1f1;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.fa-linkedin{
+	color: #236AB9;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.fa-linkedin:hover{
+	color: #b1d1f1;
+	padding-left: 20px;
+	padding-top: 20px;
+}

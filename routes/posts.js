@@ -2,12 +2,12 @@ const express = require('express');
 const router = express.Router();
 const Post = require('../models/Post');
 
-router.get('/', (req, res) => {
-	res.send('we are on posts 2');
+router.get('/resume', (req, res) => {
+	res.render('resume');
 });
 
-router.get('/specific', (req, res) => {
-	res.send('we are on specific posts');
+router.get('/aboutMe', (req, res) => {
+	res.render('aboutMe');
 });
 
 router.post('/', (req, res) => {

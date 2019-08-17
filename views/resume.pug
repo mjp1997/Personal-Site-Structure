@@ -1,0 +1,100 @@
+extends layout
+block title
+	title Resumé
+block body
+	h1 Resumé and Skills
+	section#skills.section
+		div.overallContainer
+			div.categoryDescriptContainer
+				h2 Skills 
+				p.resumeSkillsCategoryDescript.
+					I enjoy learning new programming languages and attempt to gain a deep understanding
+					gain a deep understanding of the language's applications and uses. 
+			div.categorySkillsContainer
+				h3 Front-End Development
+				p.resumeDescript(style='border-bottom:none').
+					- JavaScript, 
+					- node.js, React.js 
+					-CSS, HTML/Pug
+			div.categorySkillsContainer
+				h3 Back-End Development
+				p.resumeDescript(style='border-bottom:none').
+					- Python
+					- C++
+					- SQL/PHP
+					
+	section#workExp.section
+		div.overallContainer
+				div.categoryDescriptContainer
+					h2 Work Experience 
+					p.resumeCategoryDescript.
+						Every professional position I take is treated with my devotion in its entirety. 
+						I greatly value how my work is perceived, thus I strive to utilize my time to 
+						produce as quality of a product as possible.
+					h2 For more information on past employers: 
+						br
+						div
+						a(href = 'https://primeinc.com')
+							img.employerLogo(src='/images/primeImg.jpg', alt = 'PrimeLogo')
+						a(href = 'https://muhealth.org/about-us')
+							img.employerLogo(src='/images/muImg.jpg', alt ='MULogo')
+						a(href = 'https://citizensmemorial.com/about/why-cmh.html')
+							img.employerLogo(src='/images/cmhImg.jpg', alt = 'CMHLogo')
+						a(href = 'https://walgreens.com/pharmacy')
+							img.employerLogo(src='/images/wagsImg.jpg', alt = 'WagsLogo')
+						//- img.employerLogo(src='/images/wagsImg.jpg', alt = 'WalgLogo')				
+				div.categoryContainer
+					h3 Software Development Intern
+						span.companyFormat - Prime Inc.
+					div.dateFormat October 2018 - Present
+
+					p.resumeDescript.
+						– Assisted with the development and testing of components for Prime's mobile application, utilizing JS, CSS, Node.js, 
+						React, etc. 
+							
+						– Troubleshoot and assist company drivers with using said mobile application.
+
+						– Assisted in developing an in-house application allowing employees to view pay stubs, cafeteria menu, time clock information,	
+						along with other miscellaneous tasks. 
+
+					h3 Pharmacy Intern
+						span.companyFormat - University of Missouri Hospital
+					div.dateFormat May 2018 - August 2018	
+
+					p.resumeDescript.
+						– Collaborated with physicians and physician’s assistants to provide ensure accurate patient
+						medication information
+
+						– Utilized Cerner software to store medications, update patient medication lists, and perform
+						essential daily operations.
+
+					h3 Medication History Technician
+						span.companyFormat - Citizens Memorial Hospital
+
+					div.dateFormat July 2017 - May 2018	
+
+					p.resumeDescript.
+						– Accurately and efficiently updated take-home medication lists for patients.
+
+						– Communicated and worked in a team setting with pharmacists, nurses, physicians and other
+						medical professionals
+
+					h3 Pharmacy Technician
+						span.companyFormat - Walgreens Pharmacy
+
+					div.dateFormat October 2016 - March 2017
+
+					p.resumeDescript(style='border-bottom:none').
+						- Communicated with patients clearly and precisely about medications, insurance discrepancies, and other miscellaneous circumstances.
+
+						- Accurately and quickly filled medications to be verified by the pharmacist.
+
+						- Received and confirmed prescription orders from patients.
+
+	section#education.section
+		div.categoryContainer
+			h1.
+
+
+
+

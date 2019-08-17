@@ -1,0 +1,28 @@
+doctype html
+html
+	block head
+		meta(charset="UTF-8")
+		link(rel="stylesheet", href="/css/style.css")
+		link(href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet")
+		link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+		a(href = 'https://github.com/mjp1997')
+			i.fa.fa-github.fa-2x
+		a(href = 'https://www.linkedin.com')
+			i.fa.fa-linkedin.fa-2x
+
+
+		block title
+
+	body
+		.clear
+		block body
+		
+		div.buttonWrapper
+			div.buttonContainer
+					block navigation
+					div.buttonPosition
+						a.button(href='/') Home
+					div.buttonPosition
+						a.button(href='/posts/resume') Resume
+					div.buttonPosition
+						a.button(href='/posts/aboutMe') About Me
